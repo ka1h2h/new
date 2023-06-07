@@ -1,0 +1,42 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(./../public/fonts/gilroy-regular.ttf);
+}
+
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(./../public/fonts/gilroy-bold.ttf);
+}
+
+@font-face {
+  font-family: Gilroy-semibold;
+  src: url(./../public/fonts/gilroy-semibold.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background: #c7c7c7;
+}
+
+.cardPayment {
+  font-family: "Gilroy";
+  font-style: normal;
+}
+
+.cardPayment_container {
+  max-width: 1080px;
+  background: #ffffff;
+  box-shadow: 0px 0px 2px rgba(52, 52, 62, 0.4),
+    0px 2px 20px rgba(52, 52, 62, 0.16);
+  border-radius: 0px 0px 80px 80px;
+  padding-inline: 7.4%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 999;
+  margin-bottom: -71px;
+}

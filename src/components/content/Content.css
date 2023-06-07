@@ -1,0 +1,135 @@
+.cardPayment_cashReceipt {
+  padding: 16% 0 0 0;
+}
+
+.cardPayment_cashReceipt-slot {
+  height: 16px;
+}
+
+.cardPayment_cashReceipt-slotContent1 {
+  z-index: 1;
+  background: #aeaeb2;
+  border: 1px solid #85858b;
+  border-radius: 8px;
+  height: 16px;
+}
+
+.cardPayment_cashReceipt-slotContent2 {
+  background: rgba(133, 133, 139, 1);
+  border: 1px solid #85858b;
+  border-radius: 4px;
+  position: relative;
+  left: 0;
+  top: -12px;
+  margin-inline: 4.5px;
+  z-index: 1;
+  height: 8px;
+}
+
+.cardPayment_cashReceipt-contentStartPaper {
+  position: relative;
+  top: -8px;
+  z-index: 19999;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  margin-inline: 22px;
+
+  opacity: 0.9;
+  box-shadow: 0px 4px 10px rgba(52, 52, 62, 0.3),
+    0px 10px 30px rgba(52, 52, 62, 0.15);
+  height: 2px;
+  border-radius: 2px 2px 0px 0px;
+}
+
+.cardPayment_cashReceipt-content {
+  position: relative;
+  top: -8px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  margin-inline: 22px;
+  padding-bottom: 370px;
+  background: linear-gradient(
+    180deg,
+    #e8e8e8 0%,
+    #ffffff 8.21%,
+    #ffffff 53.72%,
+    #e8e8e8 93.1%
+  );
+
+  border: 1px solid #ebebec;
+  box-shadow: 0px 4px 10px rgba(52, 52, 62, 0.3),
+    0px 10px 30px rgba(52, 52, 62, 0.15);
+  border-radius: 2px;
+}
+
+.cardPayment_cashReceipt-contentText {
+  padding-inline: 144px;
+  width: 585px;
+}
+
+.cardPayment_cashReceipt-title {
+  font-size: calc(28px + 1 * (100vw / 1080));
+  line-height: 44px;
+  color: #a0a0a0;
+  margin: 11% 0 0 0;
+}
+
+.cardPayment_cashReceipt-price {
+  font-family: "Gilroy-bold";
+  font-size: calc(61px + 1 * (100vw / 1080));
+  line-height: 112px;
+  color: #34343e;
+  margin: 2% 0 0 0;
+  display: flex;
+  margin: 0 auto;
+}
+
+.cardPayment_cashReceipt-priceLetter {
+  font-size: 40px;
+  line-height: 79px;
+  margin-top: 25px;
+  margin-right: 6px;
+}
+
+.cardPayment_cashReceipt-description {
+  font-size: calc(46px + 1 * (100vw / 1080));
+  line-height: 64px;
+  color: #00923a;
+  font-family: "Gilroy-semibold";
+}
+
+.cardPayment_btn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-inline: -22px;
+}
+
+.cardPayment_btn-arrow {
+  margin-top: 14.8%;
+}
+.btnArrow {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
